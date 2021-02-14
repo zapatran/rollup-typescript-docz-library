@@ -1,0 +1,15 @@
+{
+  "name": "rollup-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thor Jubera Albo",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.5"
+  }
+}
