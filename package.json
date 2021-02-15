@@ -11,18 +11,6 @@
     "docz:serve": "docz build && docz serve",
     "test": "jest"
   },
-  "jest": {
-    "transform": {
-      ".(ts|tsx)": "ts-jest"
-    },
-    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js"
-    ],
-    "setupFilesAfterEnv": ["<rootDir>/src/setuptests.ts"]
-  },
   "author": "Thor Jubera Albo",
   "license": "ISC",
   "devDependencies": {
