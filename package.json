@@ -31,14 +31,13 @@
     "rollup": "^2.39.0",
     "rollup-plugin-typescript2": "^0.29.0",
     "ts-jest": "^26.5.1",
-    "typescript": "^4.1.5"
+    "typescript": "^4.1.5",
+    "docz": "^2.3.1"
   },
   "peerDependencies": {
     "react": "^17.0.1"
   },
-  "dependencies": {
-    "docz": "^2.3.1"
-  },
+  "dependencies": {},
   "scripts": {
     "build": "npx rollup -c",
     "docz:dev": "docz dev",
