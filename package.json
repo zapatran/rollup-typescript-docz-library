@@ -4,12 +4,10 @@
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
-  "scripts": {
-    "build": "npx rollup -c",
-    "docz:dev": "docz dev",
-    "docz:build": "docz build",
-    "docz:serve": "docz build && docz serve",
-    "test": "jest"
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run test"
+    }
   },
   "author": "Thor Jubera Albo",
   "license": "ISC",
@@ -40,5 +38,12 @@
   },
   "dependencies": {
     "docz": "^2.3.1"
+  },
+  "scripts": {
+    "build": "npx rollup -c",
+    "docz:dev": "docz dev",
+    "docz:build": "docz build",
+    "docz:serve": "docz build && docz serve",
+    "test": "jest --coverage"
   }
 }
