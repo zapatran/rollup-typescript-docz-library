@@ -5,7 +5,7 @@ export interface Props {
    * This is a pretty good description for this prop.
    */
   name: string;
-  onChange: () => {};
+  onChange?: () => {};
 }
 
 export const Component: React.FC<Props> = ({ name }) => {
