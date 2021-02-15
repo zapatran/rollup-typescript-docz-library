@@ -6,6 +6,9 @@
   "module": "dist/index.esm.js",
   "scripts": {
     "build": "npx rollup -c",
+    "docz:dev": "docz dev",
+    "docz:build": "docz build",
+    "docz:serve": "docz build && docz serve",
     "test": "jest"
   },
   "jest": {
@@ -39,5 +42,8 @@
   },
   "peerDependencies": {
     "react": "^17.0.1"
+  },
+  "dependencies": {
+    "docz": "^2.3.1"
   }
 }

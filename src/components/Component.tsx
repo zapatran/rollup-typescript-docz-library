@@ -1,6 +1,9 @@
 import React from "react";
 
 export interface Props {
+  /**
+   * This is a pretty good description for this prop.
+   */
   name: string;
 }
 
