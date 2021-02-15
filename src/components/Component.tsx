@@ -1,9 +1,13 @@
 import React from "react";
 
-export const Component: React.FC = () => {
+export interface Props {
+  name: string;
+}
+
+export const Component: React.FC<Props> = ({ name }) => {
   return (
     <div>
-      <div>sample component</div>
+      <div>{`Hello World ${name}`}</div>
     </div>
   );
 };

@@ -5,7 +5,8 @@ import { Component } from "./Component";
 
 describe("<Component />", () => {
   test("rendered text", () => {
-    render(<Component />);
-    expect(screen.getByText("sample component")).toBeDefined();
+    const name = "Otto";
+    render(<Component name={name} />);
+    expect(screen.getByText(`Hello World ${name}`)).toBeInTheDocument();
   });
 });
