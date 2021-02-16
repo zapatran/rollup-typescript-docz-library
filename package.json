@@ -50,7 +50,7 @@
     "docz:dev": "docz dev",
     "docz:build": "docz build",
     "docz:serve": "docz build && docz serve",
-    "test": "jest --coverage",
+    "test": "jest",
     "commit": "git-cz"
   }
 }
