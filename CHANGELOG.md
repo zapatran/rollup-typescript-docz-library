@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/zapatran/rollup-typescript-docz-library/compare/v1.0.0...v1.1.0) (2021-02-16)
+
+
+### Features
+
+* add gh-pages ([739fa30](https://github.com/zapatran/rollup-typescript-docz-library/commit/739fa30f17ab68ea07498f2fd6a67f36b291a932))
+
 # 1.0.0 (2021-02-16)
 
 
