@@ -6,7 +6,7 @@ module.exports = {
   // moduleFileExtensions: ['ts', 'tsx', 'js'],
   setupFilesAfterEnv: ['<rootDir>/src/setuptests.ts'],
   collectCoverage: true,
-  testEnvironment: 'node',
+  testEnvironment: 'jsdom',
 
   preset: 'ts-jest',
   globals: {
