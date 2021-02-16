@@ -1,6 +1,6 @@
 {
-  "name": "rollup-typescript",
-  "version": "1.0.0",
+  "name": "@zapatran/rollup-typescript",
+  "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -51,6 +51,7 @@
     "docz:build": "docz build",
     "docz:serve": "docz build && docz serve",
     "test": "jest",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "prepublishOnly": "npm run build"
   }
 }
