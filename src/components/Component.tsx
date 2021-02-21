@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FC } from 'react';
 
 export interface Props {
   /**
@@ -8,10 +8,8 @@ export interface Props {
   onChange?: () => void;
 }
 
-export const Component: React.FC<Props> = ({ name }) => {
-  return (
-    <div>
-      <div>{`Hello World ${name}`}</div>
-    </div>
-  );
-};
+export const Component: FC<Props> = ({ name }) => (
+  <div>
+    <div>{`Hello World ${name}`}</div>
+  </div>
+);

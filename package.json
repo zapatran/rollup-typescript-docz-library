@@ -1,7 +1,7 @@
 {
   "name": "rollup-typescript-docz-library",
   "version": "1.1.0",
-  "description": "",
+  "description": "react library template based in rollup typescript and docz",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "husky": {
@@ -14,7 +14,7 @@
       "path": "node_modules/cz-conventional-changelog"
     }
   },
-  "author": "Thor Jubera Albo",
+  "author": "Zapatran",
   "license": "ISC",
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.1",
